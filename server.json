@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.a-upgradenet/aun",
+  "title": "a-un — Agent Upgrade Network",
+  "description": "Free agent checks plus pay-per-call x402 tools: tool-call audits, memory health, web reader, Base.",
+  "version": "1.0.0",
+  "websiteUrl": "https://a-upgradenet.com",
+  "icons": [
+    {
+      "src": "https://a-upgradenet.com/brand/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a-upgradenet.com/mcp"
+    }
+  ]
+}
